@@ -33,4 +33,23 @@ Solve Exercise 3 here:
 
 game.diffculty = "Med";
 
+/*
+Exercise 4
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
 
+The starter Pokémon options are:
+
+Pokémon 1: Bulbasaur
+Pokémon 4: Charmander
+Pokémon 7: Squirtle
+Pokémon 25: Pikachu
+
+Solve Exercise 4 here:
+*/
+
+
+console.log(pokemon[24]);
+game.party.push(pokemon[24]
+);
+console.log(game);
