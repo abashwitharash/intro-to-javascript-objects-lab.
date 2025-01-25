@@ -267,9 +267,18 @@ for (i = 0; i < game.gyms.length; i++) {
         game.gyms[i].completed = true;
     }
 }
+
 console.log(game.gyms);
 //Different because we are not setting the value to be equal to 8...so its just below. 
 
+/*
+Exercise 16
+1. Log the entire `game` object to the console. 
+Take a moment to review the changes you've made throughout the exercises.
 
+
+Solve Exercise 16 here:
+*/
+console.log(game);
 
 
